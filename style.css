@@ -1,0 +1,112 @@
+
+body {
+    background-color: coral;
+    margin: 0;
+    padding: 20px;
+}
+
+/* element selector */
+p {
+    color: white;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 24px;
+}
+
+/* class selector */
+.main-container {
+    border: 5px solid black;
+    padding: 20px;
+    min-height: 90vh;
+}
+
+.head-h4 {
+    color: darkblue;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.big {
+    color: white;
+}
+
+.bold-black-text {
+    color: black;
+    font-weight: bold;
+}
+
+.instructions {
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+}
+ 
+.container{
+    border: 8px solid black;
+    padding: 10px;
+    
+}
+/* id selector */
+#bglime {
+    background-color: lime;
+    color: darkblue;
+    font-size: 32px;
+    padding: 5px 10px;
+}
+
+#bglime .head {
+    color: red;
+}
+
+#para {
+    color: green;
+}
+
+ul.u1 li, ol li {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+ul.u1 li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+ul.u1 li:nth-child(1) a {
+    text-decoration-line: underline;
+    background-color: yellow;
+    color: blue;
+}
+
+ul.u1 li:nth-child(2) a {
+   text-decoration-line: underline;
+    background-color:blueviolet;
+    color: blue;
+}
+
+ol li:nth-child(1) {
+    color: black;
+}
+
+ol li:nth-child(2) {
+    color: blue;
+}
+
+ol li:nth-child(3) {
+    color: red;
+}
+
+ol li:nth-child(4) {
+    color: black;
+}
+
+ol li:nth-child(5) {
+    color: black;
+}
